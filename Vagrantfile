@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     webserver.vm.provision "setup_system", type: "shell", run: "never" do |s|
       s.path = "scripts/setup_system.sh"
     end
-    webserver.vm.provision "copy_html_file", type: "file", source: "../web/index.html", destination: "/tmp/index.html", run: "never"
+    webserver.vm.provision "copy_html_file", type: "file", source: "web/index.html", destination: "/tmp/index.html", run: "never"
     webserver.vm.provision "setup_webserver", type: "shell", run: "never" do |s|
       s.path = "scripts/setup_webserver.sh"
     end
