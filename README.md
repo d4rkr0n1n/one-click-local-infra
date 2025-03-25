@@ -1,1 +1,1 @@
-# secure-static-website
+# one-click-local-infra

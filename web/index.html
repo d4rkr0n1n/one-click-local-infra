@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education for All</title>
+    <style>
+        /* Basic Reset and Font */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light grey background */
+            color: #333;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #0056b3; /* Darker blue */
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #007bff; /* Primary blue */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #e9ecef; /* Light grey */
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            color: #007bff;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+
+        .hero .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745; /* Success green */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .button:hover {
+            background-color: #1e7e34;
+        }
+
+        /* Main Content Section */
+        .main-content {
+            max-width: 960px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            padding: 30px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .section p {
+            margin-bottom: 1.2rem;
+            color: #444;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .section ul li::before {
+            content: "✓"; /* Checkmark for a more professional look */
+            color: #28a745;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Call to Action Section */
+        .cta-section {
+            background-color: #f8f9fa;
+            padding: 4rem 0;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        .cta-section h2 {
+            color: #007bff;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+
+        .cta-section .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff; /* Primary blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-section .button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #343a40; /* Dark grey */
+            color: white;
+            position: relative; /* Removed fixed positioning for better flow */
+            width: 100%;
+            margin-top: 30px; /* Added margin to separate from main content */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Education for All</h1>
+        <p>Empowering Minds, Building Futures</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#key-areas">Key Areas</a></li>
+            <li><a href="#why-it-matters">Why It Matters</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Creating a World Where Every Child Learns</h1>
+            <p>Join us in our mission to ensure quality education is accessible to all children, regardless of their background or circumstances.</p>
+            <a href="#get-involved" class="button">Support Our Cause</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section id="about" class="section">
+            <h2>Our Commitment</h2>
+            <p>We believe that education is a fundamental human right and the key to unlocking individual potential and building thriving communities. Our commitment is to advocate for and support initiatives that promote universal access to quality education.</p>
+            <p>We work with partners around the globe to address the challenges that prevent children from receiving the education they deserve. From providing resources to advocating for policy changes, we are dedicated to making a lasting impact.</p>
+        </section>
+
+        <section id="key-areas" class="section">
+            <h2>Key Focus Areas</h2>
+            <ul>
+                <li>Ensuring universal access to primary and secondary education.</li>
+                <li>Improving the quality of education through teacher training and curriculum development.</li>
+                <li>Promoting equity and inclusion for marginalized and vulnerable children.</li>
+                <li>Supporting early childhood education programs.</li>
+                <li>Advocating for increased investment in education at all levels.</li>
+            </ul>
+        </section>
+
+        <section id="why-it-matters" class="section">
+            <h2>The Impact of Education</h2>
+            <p>Education has a transformative impact on individuals and society:</p>
+            <ul>
+                <li>Empowers individuals to lead healthier and more fulfilling lives.</li>
+                <li>Drives economic growth and reduces poverty.</li>
+                <li>Fosters critical thinking and problem-solving skills.</li>
+                <li>Promotes social justice and equality.</li>
+                <li>Strengthens democratic institutions and civic engagement.</li>
+            </ul>
+        </section>
+    </main>
+
+    <section id="get-involved" class="cta-section">
+        <h2>Make a Difference</h2>
+        <p>Your support can help us reach more children with the gift of education. Join our movement today!</p>
+        <a href="#" class="button">Donate Now</a>
+    </section>
+
+     <footer>
+        <p>&copy; 2025 Education for All Initiative. All rights reserved.</p>
+    </footer>
+</body>
+</html>
