@@ -7,4 +7,4 @@
 3. Site will be live on http://192.168.56.10/
 
 ## To know more
-Go To: [https://d4rkr0n1n.hashnode.dev/devops-project-an-end-to-end-one-command-setup-for-local-infra-deployment]
+Check the About section.
